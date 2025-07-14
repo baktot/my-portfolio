@@ -83,7 +83,7 @@ const Navbar = () => {
           className="text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center"
         >
           <span className="text-white mr-1">
-            <Image src="/Logowhite.png" alt="logo" width={25} height={25}/>
+            <Image src="/Logowhite.png" alt="logo" width={30} height={30}/>
           </span>
           <span className="w-12 h-8 rounded bg-white text-black flex items-center justify-center">
             .dev
