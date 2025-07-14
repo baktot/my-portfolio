@@ -42,7 +42,7 @@ const AboutPage = () => {
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
               Hey, I&apos;m Andrei - a programmer who loves solving problems and building things that actually work. 
-              I&apos;ve been coding for about 3 years now - 1 year while I was still a student, and 2 years professionally. 
+              I&apos;ve been coding for about 3 years now - 2 years while I was still a student, and 1 year professionally. 
               Along the way, I&apos;ve learned that writing good code isn&apos;t just about making something run, but making it run well, and making it make sense.
             </p>
             <p className="text-lg">Some of the things I&apos;ve worked on:</p>
