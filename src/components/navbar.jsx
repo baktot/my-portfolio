@@ -146,7 +146,7 @@ const Navbar = () => {
               </motion.div>
               
             ))}
-            <div className="flex absolute bottom-10 gap-4 w-1/3">
+            <div className="flex absolute bottom-50 gap-4 w-1/3">
                   <Link href="https://github.com/baktot" target="_blank">
                     <Image src="/github1.png" alt="" width={24} height={24} />
                   </Link>
