@@ -61,7 +61,7 @@ const PortfolioPage = () => {
   const ref = useRef();
 
   const { scrollYProgress } = useScroll({ target: ref });
-  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-82%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-83%"]);
 
   return (
     <motion.div

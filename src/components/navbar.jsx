@@ -139,12 +139,27 @@ const Navbar = () => {
             {links.map((link) => (
               <motion.div
                 variants={listItemVariants}
-                className=""
+                className="z-10"
                 key={link.title}
               >
                 <Link href={link.url}>{link.title}</Link>
               </motion.div>
+              
             ))}
+            <div className="flex absolute bottom-5 gap-4 w-1/3">
+                  <Link href="https://github.com/baktot" target="_blank">
+                    <Image src="/github1.png" alt="" width={24} height={24} />
+                  </Link>
+                  <Link href="https://www.instagram.com/_baktot" target="_blank">
+                    <Image src="/instagram.png" alt="" width={24} height={24} />
+                  </Link>
+                  <Link href="https://www.facebook.com/andreidominnik.randall" target="_blank">
+                    <Image src="/facebook.png" alt="" width={24} height={24} />
+                  </Link>
+                  <Link href="https://www.linkedin.com/in/andrei-dominick-randall-162150255" target="_blank">
+                    <Image src="/linkedin.png" alt="" width={24} height={24} />
+                  </Link>
+                </div>
           </motion.div>
         )}
       </div>
